@@ -27,10 +27,9 @@ use IEEE.MATH_REAL.ALL;
 package types is
 
   constant taps        : integer := 7; -- filter taps
-  constant data_length : integer := 4; -- data precision
+  constant data_length : integer := 8; -- data precision
   
-  type data_array is array (0 to taps-1) of signed(data_length-1 downto 0); -- array of input data
-  type product_array is array (0 to taps-1) of signed(data_length-1 downto 0); -- array of element-wise product between data and coefficients
+  type data_array is array (0 to taps-1) of signed(data_length-1 downto 0) ; -- array of input data
   
 end package types;
 
@@ -67,8 +66,8 @@ end component;
 component fir_filter is
     Port (clk : in std_logic; -- system clock
           rst : in std_logic; -- reset signal
-          data : in std_logic_vector(2*data_length-1 downto 0); -- data symbol per symbol
-          res : out std_logic_vector(2*data_length-1 downto 0); -- result symbol per symbol
+          data : in std_logic_vector(data_length-1 downto 0); -- data symbol per symbol
+          res : out std_logic_vector(data_length-1 downto 0); -- result symbol per symbol
           res_val : out std_logic                                                                                          
     );
 end component;
@@ -84,6 +83,6 @@ uarttx : uart_transmitter port map (clock => CLK100MHz, data_valid => val_out, d
 -- instead of having input and coefficient separately, use a generic data signal since with UART transmission is serial
 -- and we must transmit first the signal and then the coeffients or viceversa
 -- the filter must wait for both of them to come from the data input variable
-filter : fir_filter port map (clk => CLK100MHz, rst => reset, data => to_receive, res => to_send, res_val => val_in);
+filter : fir_filter port map (clk => CLK100MHz, rst => reset, data => to_receive, res => to_send, res_val => val_out);
 
 end Behavioral;

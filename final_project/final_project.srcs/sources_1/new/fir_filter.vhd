@@ -26,47 +26,58 @@ use work.types.all;
 entity fir_filter is
   Port (clk : in std_logic; -- system clock
         rst : in std_logic; -- reset signal
-        data : in std_logic_vector(2*data_length-1 downto 0); -- data symbol per symbol
-        res : out std_logic_vector(2*data_length-1 downto 0); -- result symbol per symbol
+        data : in std_logic_vector(data_length-1 downto 0); -- data symbol per symbol
+        res : out std_logic_vector(data_length-1 downto 0); -- result symbol per symbol
         res_val : out std_logic
   );
 end fir_filter;
 
 architecture Behavioral of fir_filter is
 
-signal sample, coeff : std_logic_vector(data_length-1 downto 0);
-signal d : std_logic_vector(2*data_length-1 downto 0);
-signal samples, coeffs : data_array;
-signal products : product_array;
+signal sample : std_logic_vector(data_length-1 downto 0);
+signal samples, products : data_array;
+
+-- coefficients are all the same for MA filter and set to 1 => with python after receiving filtered data
+-- divide it by the length of the filter
+signal coeffs : data_array := (
+    0 => "00000001",
+    1 => "00000001",
+    2 => "00000001",
+    3 => "00000001",
+    4 => "00000001",
+    5 => "00000001",
+    6 => "00000001"
+);
 
 begin
 
 main : process (clk, rst)
-variable sum : signed(2*data_length-1 downto 0); --to do 'convolution'
+variable sum : signed(data_length-1 downto 0); --to do 'convolution'
 begin
     if rst = '1' then
         res <= (others => '0');
         res_val <= '0';
         samples <= (others => (others => '0'));
-        coeffs <= (others => (others => '0'));
         sum := (others => '0');
     end if;
 
     if rising_edge(clk) then
-        d <= data;
-        coeff <= d(2*data_length-1 downto data_length); -- first half of the vector contains the coefficient
-        sample <= d(data_length-1 downto 0); -- second half of the vector contains the sample
-        coeffs <= signed(coeff) & coeffs(0 to taps-2);
-        samples <= signed(sample) & samples(0 to taps-2);
+        sample <= data;
+        samples <= signed(sample) & samples(0 to taps-2); -- shift new data into array of samples
         
         sum := (others => '0');
         for i in 0 to taps-1 loop
             sum := sum + products(i);
         end loop;
+        
         res <= std_logic_vector(sum);
         res_val <= '1';
-        end if;
+    end if;
 end process;
+
+--coeffs_gen : for i in 0 to taps-1 generate
+--    coeffs(i) <= "00000001";
+--end generate;
 
 prod_gen : for i in 0 to taps-1 generate
     products(i) <= samples(i) * coeffs(i);

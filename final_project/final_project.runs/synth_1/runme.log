@@ -14,33 +14,31 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 21164 
+INFO: Helper process launched with PID 15492 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 430.078 ; gain = 97.324
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 430.117 ; gain = 98.227
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'system' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:50]
-INFO: [Synth 8-3491] module 'uart_receiver' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_rx.vhd:6' bound to instance 'uartrx' of component 'uart_receiver' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'system' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:49]
+INFO: [Synth 8-3491] module 'uart_receiver' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_rx.vhd:6' bound to instance 'uartrx' of component 'uart_receiver' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:80]
 INFO: [Synth 8-638] synthesizing module 'uart_receiver' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_rx.vhd:17]
 INFO: [Synth 8-3491] module 'sampler_generator' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/sampler_generator.vhd:5' bound to instance 'sampler_generator_1' of component 'sampler_generator' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_rx.vhd:35]
 INFO: [Synth 8-638] synthesizing module 'sampler_generator' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/sampler_generator.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'sampler_generator' (1#1) [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/sampler_generator.vhd:14]
 INFO: [Synth 8-256] done synthesizing module 'uart_receiver' (2#1) [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_rx.vhd:17]
-INFO: [Synth 8-3491] module 'uart_transmitter' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_tx.vhd:6' bound to instance 'uarttx' of component 'uart_transmitter' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:82]
+INFO: [Synth 8-3491] module 'uart_transmitter' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_tx.vhd:6' bound to instance 'uarttx' of component 'uart_transmitter' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:81]
 INFO: [Synth 8-638] synthesizing module 'uart_transmitter' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_tx.vhd:18]
 INFO: [Synth 8-3491] module 'baudrate_generator' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/baudrate_generator.vhd:6' bound to instance 'baudrate_generator_1' of component 'baudrate_generator' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_tx.vhd:34]
 INFO: [Synth 8-638] synthesizing module 'baudrate_generator' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/baudrate_generator.vhd:15]
 INFO: [Synth 8-256] done synthesizing module 'baudrate_generator' (3#1) [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/baudrate_generator.vhd:15]
 INFO: [Synth 8-256] done synthesizing module 'uart_transmitter' (4#1) [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_tx.vhd:18]
-INFO: [Synth 8-3491] module 'fir_filter' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:26' bound to instance 'filter' of component 'fir_filter' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:87]
+INFO: [Synth 8-3491] module 'fir_filter' declared at 'C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:26' bound to instance 'filter' of component 'fir_filter' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:86]
 INFO: [Synth 8-638] synthesizing module 'fir_filter' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:35]
-WARNING: [Synth 8-6014] Unused sequential element sum_reg was removed.  [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:52]
+WARNING: [Synth 8-6014] Unused sequential element sum_reg was removed.  [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:50]
 INFO: [Synth 8-256] done synthesizing module 'fir_filter' (5#1) [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:35]
-WARNING: [Synth 8-3848] Net val_out in module/entity system does not have driver. [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:76]
-WARNING: [Synth 8-3848] Net reset in module/entity system does not have driver. [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:76]
-INFO: [Synth 8-256] done synthesizing module 'system' (6#1) [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:50]
-WARNING: [Synth 8-3331] design fir_filter has unconnected port rst
+WARNING: [Synth 8-3848] Net reset in module/entity system does not have driver. [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'system' (6#1) [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:49]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.852 ; gain = 154.098
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 487.078 ; gain = 155.188
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -49,15 +47,15 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin uarttx:data_valid to constant 0 [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:82]
+WARNING: [Synth 8-3295] tying undriven pin filter:rst to constant 0 [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd:86]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 486.852 ; gain = 154.098
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 487.078 ; gain = 155.188
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 486.852 ; gain = 154.098
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 487.078 ; gain = 155.188
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -71,30 +69,30 @@ Resolution: If [get_<value>] was used to populate the object, check to make sure
 Finished Parsing XDC File [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/constrs_1/new/constraints.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 829.641 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 836.695 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 829.668 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 836.758 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 829.668 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 829.668 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 836.758 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 836.758 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 829.668 ; gain = 496.914
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 836.758 ; gain = 504.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 829.668 ; gain = 496.914
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 836.758 ; gain = 504.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 829.668 ; gain = 496.914
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 836.758 ; gain = 504.867
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'sampler_generator'
 INFO: [Synth 8-5546] ROM "pulse_out" won't be mapped to RAM because it is too sparse
@@ -153,8 +151,15 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
                   stop_s |                             1011 |                             1100
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_transmitter'
+WARNING: [Synth 8-327] inferring latch for variable 'coeffs_reg[0]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'coeffs_reg[6]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'coeffs_reg[5]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'coeffs_reg[4]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'coeffs_reg[3]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'coeffs_reg[2]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'coeffs_reg[1]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 829.668 ; gain = 496.914
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 836.758 ; gain = 504.867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -169,12 +174,10 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input     11 Bit       Adders := 2     
 	   2 Input     10 Bit       Adders := 1     
-	   7 Input      8 Bit       Adders := 1     
 +---Registers : 
 	               11 Bit    Registers := 2     
 	               10 Bit    Registers := 1     
 	                8 Bit    Registers := 4     
-	                4 Bit    Registers := 1     
 	                1 Bit    Registers := 9     
 +---Muxes : 
 	   2 Input     11 Bit        Muxes := 1     
@@ -227,11 +230,8 @@ Detailed RTL Component Info :
 	  12 Input      1 Bit        Muxes := 5     
 Module fir_filter 
 Detailed RTL Component Info : 
-+---Adders : 
-	   7 Input      8 Bit       Adders := 1     
 +---Registers : 
 	                8 Bit    Registers := 2     
-	                4 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
@@ -252,10 +252,223 @@ Warning: Parallel synthesis criteria is not met
 INFO: [Synth 8-5546] ROM "uartrx/sampler_generator_1/pulse_out" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "uartrx/sampler_generator_1/enable_delay" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "uarttx/baudrate_generator_1/baudrate_out" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-4471] merging register 'filter/coeffs_reg[0][3:0]' into 'filter/coeffs_reg[0][3:0]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:51]
-INFO: [Synth 8-4471] merging register 'filter/samples_reg[0][3:0]' into 'filter/samples_reg[0][3:0]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:50]
+INFO: [Synth 8-4471] merging register 'filter/samples_reg[0][7:0]' into 'filter/samples_reg[0][7:0]' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:48]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\filter/res_val_reg )
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][7]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][7]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][6]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][6]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][5]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][5]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][4]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][4]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][3]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][3]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][2]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][2]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][1]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][1]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[0][0]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[0][0]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][7]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][7]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][6]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][6]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][5]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][5]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][4]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][4]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][3]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][3]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][2]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][2]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][1]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][1]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[6][0]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[6][0]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][7]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][7]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][6]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][6]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][5]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][5]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][4]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][4]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][3]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][3]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][2]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][2]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][1]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][1]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[5][0]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[5][0]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][7]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][7]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][6]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][6]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][5]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][5]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][4]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][4]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][3]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][3]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][2]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][2]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][1]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][1]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[4][0]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[4][0]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][7]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][7]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][6]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][6]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][5]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][5]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][4]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][4]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][3]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][3]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][2]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][2]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][1]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][1]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[3][0]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[3][0]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][7]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][7]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][6]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][6]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][5]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][5]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][4]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][4]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][3]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][3]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][2]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][2]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][1]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][1]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[2][0]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[2][0]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'VCC' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][7]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[1][7]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][6]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'filter/coeffs_reg[1][6]/Q' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][5]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][4]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][3]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][2]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][1]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
+WARNING: [Synth 8-3332] Sequential element (filter/coeffs_reg[1][0]) is unused and will be removed from module system.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd:49]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 829.668 ; gain = 496.914
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 836.758 ; gain = 504.867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -267,13 +480,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 829.668 ; gain = 496.914
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 836.758 ; gain = 504.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 895.715 ; gain = 562.961
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 836.758 ; gain = 504.867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -285,7 +498,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 907.473 ; gain = 574.719
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -309,7 +522,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -322,7 +535,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -334,40 +547,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
-Static Shift Register Report:
-+------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|Module Name | RTL Name                 | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
-+------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|system      | filter/coeffs_reg[0][3]  | 3      | 4     | NO           | NO                 | YES               | 4      | 0       | 
-|system      | filter/samples_reg[0][3] | 3      | 4     | NO           | NO                 | YES               | 4      | 0       | 
-+------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP and Shift Register Reporting
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -384,53 +582,52 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |     2|
+|2     |CARRY4 |    12|
 |3     |LUT1   |     6|
-|4     |LUT2   |    24|
-|5     |LUT3   |    23|
-|6     |LUT4   |    25|
-|7     |LUT5   |    21|
-|8     |LUT6   |    68|
+|4     |LUT2   |    63|
+|5     |LUT3   |     9|
+|6     |LUT4   |    10|
+|7     |LUT5   |    12|
+|8     |LUT6   |    23|
 |9     |MUXF7  |     1|
-|10    |SRL16E |     8|
-|11    |FDRE   |   142|
-|12    |IBUF   |     2|
-|13    |OBUF   |     1|
+|10    |FDRE   |   150|
+|11    |IBUF   |     2|
+|12    |OBUF   |     1|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+-------------------------+-------------------+------+
 |      |Instance                 |Module             |Cells |
 +------+-------------------------+-------------------+------+
-|1     |top                      |                   |   324|
-|2     |  filter                 |fir_filter         |   168|
+|1     |top                      |                   |   290|
+|2     |  filter                 |fir_filter         |   134|
 |3     |  uartrx                 |uart_receiver      |   113|
 |4     |    sampler_generator_1  |sampler_generator  |    87|
 |5     |  uarttx                 |uart_transmitter   |    39|
 |6     |    baudrate_generator_1 |baudrate_generator |    27|
 +------+-------------------------+-------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 845.691 ; gain = 513.801
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 907.473 ; gain = 231.902
-Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 907.473 ; gain = 574.719
+Synthesis finished with 0 errors, 168 critical warnings and 63 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 845.691 ; gain = 164.121
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 845.691 ; gain = 513.801
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 907.473 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 846.953 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-47 Infos, 6 Warnings, 1 Critical Warnings and 0 Errors encountered.
+48 Infos, 67 Warnings, 157 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 907.473 ; gain = 587.746
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 907.473 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 846.953 ; gain = 528.133
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 846.953 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/amede/Vivado Projects/final_project/final_project.runs/synth_1/system.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file system_utilization_synth.rpt -pb system_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Jan 19 16:25:01 2022...
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 20 18:53:01 2022...
