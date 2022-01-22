@@ -29,12 +29,12 @@ set_property target_language VHDL [current_project]
 set_property ip_output_repo {c:/Users/amede/Vivado Projects/final_project/final_project.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
+  {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/baudrate_generator.vhd}
   {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd}
+  {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/sampler_generator.vhd}
   {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_rx.vhd}
   {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_tx.vhd}
   {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd}
-  {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/baudrate_generator.vhd}
-  {C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/sampler_generator.vhd}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

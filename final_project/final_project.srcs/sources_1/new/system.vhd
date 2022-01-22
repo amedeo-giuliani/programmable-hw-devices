@@ -29,7 +29,8 @@ package types is
   constant taps        : integer := 7; -- filter taps
   constant data_length : integer := 8; -- data precision
   
-  type data_array is array (0 to taps-1) of signed(data_length-1 downto 0) ; -- array of input data
+  type data_array is array (0 to taps-1) of unsigned(data_length-1 downto 0); -- array of input data
+  type product_array is array (0 to taps-1) of unsigned(2*data_length-1 downto 0);
   
 end package types;
 
@@ -42,6 +43,7 @@ use work.types.all;
 
 entity system is
   Port (CLK100MHz : in std_logic;
+        reset : in std_logic;
         uart_txd_in : in std_logic;
         uart_rxd_out : out std_logic);
 end system;
@@ -67,12 +69,13 @@ component fir_filter is
     Port (clk : in std_logic; -- system clock
           rst : in std_logic; -- reset signal
           data : in std_logic_vector(data_length-1 downto 0); -- data symbol per symbol
+          data_val : in std_logic;
           res : out std_logic_vector(data_length-1 downto 0); -- result symbol per symbol
-          res_val : out std_logic                                                                                          
+          res_val : out std_logic
     );
 end component;
 
-signal val_in, val_out, line_busy, reset : std_logic;
+signal val_in, val_out, line_busy : std_logic;
 signal to_receive, to_send : std_logic_vector(7 downto 0);
 
 begin
@@ -83,6 +86,6 @@ uarttx : uart_transmitter port map (clock => CLK100MHz, data_valid => val_out, d
 -- instead of having input and coefficient separately, use a generic data signal since with UART transmission is serial
 -- and we must transmit first the signal and then the coeffients or viceversa
 -- the filter must wait for both of them to come from the data input variable
-filter : fir_filter port map (clk => CLK100MHz, rst => reset, data => to_receive, res => to_send, res_val => val_out);
+filter : fir_filter port map (clk => CLK100MHz, rst => reset, data => to_receive, data_val => val_in, res => to_send, res_val => val_out);
 
 end Behavioral;

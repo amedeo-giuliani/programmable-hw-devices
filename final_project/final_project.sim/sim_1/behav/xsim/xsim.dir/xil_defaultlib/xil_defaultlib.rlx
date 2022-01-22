@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sim_1/new/testbench.vhd,1642860518,vhdl,,,,testbench,,,,,,,,
+C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/baudrate_generator.vhd,1642604310,vhdl,,,,baudrate_generator,,,,,,,,
+C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd,1642860857,vhdl,,,,fir_filter,,,,,,,,
+C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/sampler_generator.vhd,1642604342,vhdl,,,,sampler_generator,,,,,,,,
+C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/system.vhd,1642860698,vhdl,C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/fir_filter.vhd,,,types,,,,,,,,
+C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_rx.vhd,1642604200,vhdl,,,,uart_receiver,,,,,,,,
+C:/Users/amede/Vivado Projects/final_project/final_project.srcs/sources_1/new/uart_tx.vhd,1642604165,vhdl,,,,uart_transmitter,,,,,,,,
